@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is StartedCustomerRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test case is PassedCustomerRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test case is FailedCustomerRegistration]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35445" started-at="2018-09-24T06:01:32Z" finished-at="2018-09-24T06:02:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35445" started-at="2018-09-24T06:01:32Z" finished-at="2018-09-24T06:02:08Z">
+      <class name="com.automation.ecommerce.homePage.TC_001CustomerRegistration">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.automation.ecommerce.homePage.TC_001CustomerRegistration@25bbe1b6]" name="SetUp" is-config="true" duration-ms="15029" started-at="2018-09-24T06:01:32Z" finished-at="2018-09-24T06:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="CustomerRegistration()[pri:0, instance:com.automation.ecommerce.homePage.TC_001CustomerRegistration@25bbe1b6]" name="CustomerRegistration" duration-ms="20356" started-at="2018-09-24T06:01:48Z" finished-at="2018-09-24T06:02:08Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.automation.ecommerce.listeners.Listeners.onTestSuccess(Listeners.java:32)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerRegistration -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.automation.ecommerce.homePage.TC_001CustomerRegistration@25bbe1b6]" name="close" is-config="true" duration-ms="0" started-at="2018-09-24T06:02:08Z" finished-at="2018-09-24T06:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.automation.ecommerce.homePage.TC_001CustomerRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
